@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Rang Barse</title>
+<style>
+	*{font-family:sans-serif;}
+	
+</style>
+<script>
+ 	function cc()
+	{
+	event.preventDefault()
+	let colors=["red","blue","green","yellow","lightpink"]
+	let res=parseInt(Math.random()*colors.length)
+	document.body.style.backgroundColor=colors[res];
+	}
+</script>
+</head>
+<body>
+<center>
+	<h1>HOLI HAIN</h1>
+	<form onsubmit="cc()">
+	<input type="submit" value="mohe rang de" />
+	</form>
+</center>
+
+</body>
+
+
+</html>
